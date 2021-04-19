@@ -5,5 +5,5 @@
 * test3.py用于对data/processed中的五个json文件做tokenize并划分num_piece（默认=20），并将结果保存在data/processed/tokenized中
 * test4.py，本来应该命名为train.py，用于训练
 * test5.py，本来应该命名为generate.py，用于生成
-* model/lyrics/final_model文件夹内保存test4.py中经过训练后保存的模型
+* model/lyrics/final_model文件夹内保存test4.py中经过训练后保存的模型，因为它们实在是太大了就都删掉了，第一次运行最终loss在4左右......
 * tokenizations文件夹下保存可以选用的三种tokenizer，包括默认的Bert Tokenizer，分词版Bert Tokenizer以及BPE Tokenizer。同时也保存了vocab_guwen.txt，finals.txt，sentences.txt，pingze.txt四个语料库
